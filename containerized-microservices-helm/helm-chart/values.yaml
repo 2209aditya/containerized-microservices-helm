@@ -1,0 +1,9 @@
+service1:
+  image: yourdockerhubusername/service1:latest
+  replicaCount: 2
+  servicePort: 3000
+
+service2:
+  image: yourdockerhubusername/service2:latest
+  replicaCount: 2
+  servicePort: 3000
